@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EAEAEA;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    height: 60%;
+}
+
+.centered-box {
+    
+    width: 60%;
+    background-color: blue;
+    padding: 20px;
+}
+
+.centered-box p {
+    display: flex;
+    color: white;
+    line-height: 1.5em;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
